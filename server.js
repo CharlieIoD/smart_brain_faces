@@ -20,6 +20,7 @@ const db = knex({
         }
 });
 
+
 console.log(db.select('*').from('users'));
 
 const app = express();
